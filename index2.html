@@ -5,8 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Курси валют</title>  
     <style>  
+        body {  
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+            line-height: 1.6;  
+            margin: 0;  
+            padding: 0;  
+            background-color: #121212;  
+            color: #f0f0f0;  
+        }  
+        .container {  
+            max-width: 900px;  
+            margin: 50px auto;  
+            padding: 20px;  
+            background-color: #1e1e1e;  
+            border-radius: 15px;  
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);  
+        }  
+        h1 {  
+            color: #ff9800;  
+            text-align: center;  
+            margin-bottom: 20px;  
+        }  
         table {  
-            width: 50%;  
+            width: 100%;  
             border-collapse: collapse;  
             margin: 20px 0;  
         }  
@@ -18,48 +39,65 @@
         th {  
             background-color: #f2f2f2;  
         }  
+        a {  
+            display: inline-block;  
+            margin-top: 20px;  
+            padding: 10px 15px;  
+            font-size: 1.2em;  
+            background-color: #ff9800;  
+            color: #121212;  
+            border-radius: 5px;  
+            text-align: center;  
+            text-decoration: none;  
+            transition: background-color 0.3s, color 0.3s;  
+        }  
+        a:hover {  
+            background-color: #ffc107;  
+            color: #121212;  
+        }  
     </style>  
 </head>  
 <body>  
-    <h1>Курси валют</h1>  
-    <table>  
-        <tr>  
-            <th>№ валюти</th>  
-            <th>Валюта</th>  
-            <th>Курс</th>  
-        </tr>  
-        <tr>  
-            <td>0</td>  
-            <td>UAH</td>  
-            <td>1</td> <!-- Змінити курс -->  
-        </tr>  
-        <tr>  
-            <td>1</td>  
-            <td>USD</td>  
-            <td>36.00</td> <!-- Змінити курс -->  
-        </tr>  
-        <tr>  
-            <td>2</td>  
-            <td>EUR</td>  
-            <td>39.00</td> <!-- Змінити курс -->  
-        </tr>  
-        <tr>  
-            <td>3</td>  
-            <td>GBP</td>  
-            <td>45.00</td> <!-- Змінити курс -->  
-        </tr>  
-        <tr>  
-            <td>4</td>  
-            <td>JPY</td>  
-            <td>0.25</td> <!-- Змінити курс -->  
-        </tr>  
-        <tr>  
-            <td>5</td>  
-            <td>AUD</td>  
-            <td>24.00</td> <!-- Змінити курс -->  
-        </tr>  
-    </table>
-    <a href="index.html">Перейти на Example.com</a>  
-
+    <div class="container">  
+        <h1>Курси валют</h1>  
+        <table>  
+            <tr>  
+                <th>№ валюти</th>  
+                <th>Валюта</th>  
+                <th>Курс</th>  
+            </tr>  
+            <tr>  
+                <td>0</td>  
+                <td>UAH</td>  
+                <td>1</td> <!-- Змінити курс -->  
+            </tr>  
+            <tr>  
+                <td>1</td>  
+                <td>USD</td>  
+                <td>36.00</td> <!-- Змінити курс -->  
+            </tr>  
+            <tr>  
+                <td>2</td>  
+                <td>EUR</td>  
+                <td>39.00</td> <!-- Змінити курс -->  
+            </tr>  
+            <tr>  
+                <td>3</td>  
+                <td>GBP</td>  
+                <td>45.00</td> <!-- Змінити курс -->  
+            </tr>  
+            <tr>  
+                <td>4</td>  
+                <td>JPY</td>  
+                <td>0.25</td> <!-- Змінити курс -->  
+            </tr>  
+            <tr>  
+                <td>5</td>  
+                <td>AUD</td>  
+                <td>24.00</td> <!-- Змінити курс -->  
+            </tr>  
+        </table>  
+        <a href="index.html">Про Автора</a>  
+    </div>  
 </body>  
 </html>
