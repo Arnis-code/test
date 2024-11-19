@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя сторінка</title>
@@ -84,9 +85,9 @@
     </style>
     <script>
         function showSection(sectionId) {
-            // Hide all sections
+     
             document.querySelectorAll('.section').forEach(section => section.classList.remove('active'));
-            // Show the selected section
+     
             document.getElementById(sectionId).classList.add('active');
         }
     </script>
@@ -99,7 +100,7 @@
             <a href="#" onclick="showSection('team'); return false;">Спів Автори</a>
         </div>
 
-        <!-- Секція "Про мене" -->
+        
         <div id="about" class="section active">
             <h1>Привіт! Мене звати Саша Марчук</h1>
             <p>Я народився 2007 року. З дитинства мене цікавили наука, технології та інновації, тому після закінчення школи я вирішив продовжити свій шлях у цій галузі.</p>
@@ -107,7 +108,7 @@
             <p>Моя мета – стати професіоналом у своїй сфері та залишити свій слід у розвитку науки і техніки. Я прагну розвиватися й отримувати новий досвід, який допоможе мені досягти моїх цілей.</p>
         </div>
 
-        <!-- Секція "Завдання" -->
+        
         <div id="tasks" class="section">
             <h2>Завдання: Таблиця валют</h2>
             <p>Створити таблицю курсів валют на 6 валют. Перші 3 валюти UAH, USD, EUR. Інші 3 потрібно вибрати з переліку.</p>
@@ -150,7 +151,7 @@
             </table>
         </div>
 
-        <!-- Секція "Спів Автори" -->
+        
         <div id="team" class="section">
             <h1>Наша Команда</h1>
             <div class="author-section">
